@@ -7,7 +7,6 @@ import java.util.regex.Pattern;
 
 // Creating a class DateExtractor to handle date extraction
 public class DateExtractor {
-
     // Method to extract all dates in the format dd/mm/yyyy from the given text
     public static List<String> extractDates(String text) {
         List<String> dates = new ArrayList<>();
